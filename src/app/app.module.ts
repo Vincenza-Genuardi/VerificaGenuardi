@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BraniComponent } from './brani/brani.component';
 import { ArtistiComponent } from './artisti/artisti.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     BraniComponent,
-    ArtistiComponent
+    ArtistiComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
