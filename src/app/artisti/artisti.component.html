@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>NUMERO BRANI</th>
+        </tr>  
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of artisti">
+            <td>{{a.id}}</td>
+            <td>{{a.nome}}</td>
+            <td>{{a.brani}}</td>
+        </tr> 
+    </tbody>
+</table>
